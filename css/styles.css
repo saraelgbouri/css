@@ -1,0 +1,210 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   background-image: url("../images/bg-tile.gif");
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+#hero {background-image: url(../images/bg-tile-yellow.gif);}
+.container {
+
+}
+li{ 
+   display: inline;
+   padding: 10px;
+   color: #d17f38;
+
+    }
+
+
+
+   
+.clearfix{text-align: center;color: #4b2707}
+/* Typography */
+
+h1, h2 {
+
+}
+
+h1 {color: #d17f38;
+   text-align: center;
+   font-family: love ya like a sister;
+   background: url(../images/header-divider.png)no-repeat center;
+   padding-bottom:40px;
+
+}
+
+h1 em {color: #4b2707;
+
+}
+
+h2 {color: #d17f38;
+   font-family: love ya like a sister;
+
+}
+
+h3 {
+
+}
+
+p.lead {
+
+}
+
+p {
+
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+hr {
+
+}
+
+
+/* Header */
+
+header nav {
+
+}
+
+header nav ul {
+text-align: center;position: relative;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+color : #d17f38;
+text-decoration: none;
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {content: url("../images/logo.png");position: relative;
+
+}
+
+header nav ul li#logo a:hover {
+content: url("../images/logo-hover.png");
+}
+
+
+/* Hero */
+
+
+#hero .container {text-align: center;
+
+}
+
+#hero .large-ribbon {
+   content: url(../images/fresh-whole-ingredients.png);
+   position: absolute; 
+   top: 35%; 
+   right: 11%;
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+
+}
+
+#best-donut {
+
+
+}
+/* News & Events */
+
+#articles {
+
+}
+
+#feature-image {
+
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+/* Footer */
+
+footer.main {
+
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+
+}
+
+#uncopyright {
+
+}
+
+#credits {
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
